@@ -1,8 +1,6 @@
-txt = input("")
+txt1 = input()
+txt2 = input()
 
-words = txt.split()
+a = txt1.replace(txt2, " ")
 
-
-acronym = ''.join(word[0].upper() for word in words)
-
-print(f"Acronym: {acronym}")
+print(a)
