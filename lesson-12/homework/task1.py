@@ -9,6 +9,9 @@ def get_weather(city_name, api_key):
     }
     response = requests.get(base_url, params=params)
     
+
+
+    
     if response.status_code == 200:
         data = response.json()
         return data
